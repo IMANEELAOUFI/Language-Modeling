@@ -34,6 +34,10 @@ The obtained results are interpreted to understand the effectiveness of the sele
 ![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/36cdef3d-584c-469c-81b0-b4bade735e07)
 
 
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/379273ac-dc24-4285-a56d-d2a4b232045f)
+
+
+
 
 
 
