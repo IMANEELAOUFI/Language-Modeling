@@ -1,69 +1,54 @@
 # Language-Modeling
 # Overview
-This project is divided into two main parts: Language Modeling / Regression and Language Modeling / Classification. Each part uses a specific dataset and involves establishing an NLP preprocessing pipeline, encoding data vectors using various techniques, training models, and evaluating their performance using standard metrics. The goal is to identify the best-performing model for each task.
+This project focuses on utilizing Natural Language Processing (NLP) techniques and models provided by the Sklearn library. The objective is to gain familiarity with language models for regression and classification tasks.
 
 # Part 1: Language Modeling / Regression
 ## Dataset
-The dataset used for this task can be found here. It contains short answers along with their corresponding scores.
+The dataset used for this part can be found here.
 
-## Steps
-## 1) NLP Preprocessing Pipeline
-- Tokenization: Splitting the text into individual tokens or words.
-- Stemming and Lemmatization: Reducing words to their root forms.
-- Removal of Stop Words: Eliminating common words that do not contribute much to the meaning.
-- Discretization: Converting continuous features into discrete bins (if applicable).
+## Preprocessing
+- Tokenization, stemming, lemmatization, and removal of stop words are performed to preprocess the collected dataset.
+- Discretization is applied to transform continuous data into categorical data.
   
-## 2) Data Encoding
-- Word2Vec: Using both Continuous Bag of Words (CBOW) and Skip Gram models to convert text into numerical vectors.
-- Bag of Words (BoW): Creating a matrix of token counts.
-- TF-IDF (Term Frequency-Inverse Document Frequency): Reflecting the importance of words in the documents.
+## Encoding
+Word2Vec (CBOW, Skip Gram), Bag of Words, and TF-IDF are used to encode the data vectors.
 
-## 3) Model Training
+## Models
+The following models are trained using the Word2Vec embeddings:
+
 - Support Vector Regression (SVR)
-- Naive Bayes
 - Linear Regression
-- Decision Tree Regression
+- Decision Tree
+  
+## Evaluation
+The models are evaluated using standard metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). The best model is selected based on these metrics, and the choice is justified.
 
-## 4) Model Evaluation
-- Mean Squared Error (MSE): Measures the average of the squares of the errors.
-- Root Mean Squared Error (RMSE): The square root of MSE, giving the error in the same units as the response variable.
-- R-squared (R²): Represents the proportion of the variance for the dependent variable that's explained by the independent variables.
-
-## 5) Result Interpretation
-Select the best model based on the evaluation metrics.
-Provide a detailed explanation of why the chosen model performs the best.
+## Results Interpretation
+The obtained results are interpreted to understand the effectiveness of the selected model and the overall performance of the language models for regression.
 
 # Part 2: Language Modeling / Classification
 ## Dataset
-The dataset used for this task is available on Kaggle: Twitter Entity Sentiment Analysis. It contains tweets labeled with sentiments.
+The dataset used for this part can be found here.
 
-## Steps
-## 1) NLP Preprocessing Pipeline
-- Tokenization: Splitting the text into individual tokens or words.
-- Stemming and Lemmatization: Reducing words to their root forms.
-- Removal of Stop Words: Eliminating common words that do not contribute much to the meaning.
-- Discretization: Converting continuous features into discrete bins (if applicable).
-  
-## 2) Data Encoding
-Word2Vec: Using both Continuous Bag of Words (CBOW) and Skip Gram models to convert text into numerical vectors.
-Bag of Words (BoW): Creating a matrix of token counts.
-TF-IDF (Term Frequency-Inverse Document Frequency): Reflecting the importance of words in the documents.
+## Preprocessing
+Similar to Part 1, a preprocessing NLP pipeline is established for tokenization, stemming, lemmatization, stop words removal, and discretization.
 
-## 3) Model Training
+## Encoding
+Data vectors are encoded using Word2Vec (CBOW, Skip Gram), Bag of Words, and TF-IDF.
+
+## Models
+The following models are trained using the Word2Vec embeddings:
+
 - Support Vector Machine (SVM)
 - Naive Bayes
 - Logistic Regression
 - AdaBoost
+  
+## Evaluation
+Models are evaluated using standard metrics such as Accuracy, Loss, and F1 Score, along with other metrics like BLEU Score. The best model is selected based on these metrics, and the choice is justified.
 
-## 4) Model Evaluation
-- Accuracy: The ratio of correctly predicted instances to the total instances.
-- Loss: Measures the error of the model.
-- F1 Score: The harmonic mean of precision and recall.
-- Other Metrics (e.g., BLEU Score): Evaluate the quality of text-based predictions (if applicable).
+## Results Interpretation
+The obtained results are interpreted to understand the effectiveness of the selected model and the overall performance of the language models for classification.
 
-## 5) Result Interpretation
-Select the best model based on the evaluation metrics.
-Provide a detailed explanation of why the chosen model performs the best.
-
-## Conclusion
-In this project, we implemented comprehensive NLP pipelines for both regression and classification tasks using various text encoding techniques and machine learning algorithms. Through rigorous evaluation using standard metrics, we identified the best-performing models and provided insights into their performance. This project demonstrates the application of NLP and machine learning techniques to real-world text data, offering valuable lessons in model selection and evaluation.
+# Conclusion
+In this project, we explored NLP techniques and models for language modeling using Sklearn. We performed preprocessing, encoding, training, and evaluation for both regression and classification tasks. Through this work, we gained valuable insights into the effectiveness of different models and techniques in NLP applications.
