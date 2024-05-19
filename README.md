@@ -4,7 +4,7 @@ This project focuses on utilizing Natural Language Processing (NLP) techniques a
 
 # Part 1: Language Modeling / Regression
 ## Dataset
-The dataset used for this part can be found here.
+The dataset used for this part can be found here:https://github.com/dbbrandt/short_answer_granding_capstone_project/blob/master/data/sag/answers.csv.
 
 ## Preprocessing
 - Tokenization, stemming, lemmatization, and removal of stop words are performed to preprocess the collected dataset.
@@ -42,7 +42,7 @@ The obtained results are interpreted to understand the effectiveness of the sele
 
 # Part 2: Language Modeling / Classification
 ## Dataset
-The dataset used for this part can be found here.
+The dataset used for this part can be found here: https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
 
 ## Preprocessing
 Similar to Part 1, a preprocessing NLP pipeline is established for tokenization, stemming, lemmatization, stop words removal, and discretization.
