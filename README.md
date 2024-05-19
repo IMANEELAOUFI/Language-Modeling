@@ -65,5 +65,13 @@ Models are evaluated using standard metrics such as Accuracy, Loss, and F1 Score
 ## Results Interpretation
 The obtained results are interpreted to understand the effectiveness of the selected model and the overall performance of the language models for classification.
 
+
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/d3295cc4-4b10-4dff-8532-1306e8829eaa)
+
+
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/5b369fd2-8f1c-48c7-8078-be060bd01a7a)
+
+
+
 # Conclusion
 In this project, we explored NLP techniques and models for language modeling using Sklearn. We performed preprocessing, encoding, training, and evaluation for both regression and classification tasks. Through this work, we gained valuable insights into the effectiveness of different models and techniques in NLP applications.
