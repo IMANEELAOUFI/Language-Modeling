@@ -26,6 +26,10 @@ The models are evaluated using standard metrics such as Mean Squared Error (MSE)
 ## Results Interpretation
 The obtained results are interpreted to understand the effectiveness of the selected model and the overall performance of the language models for regression.
 
+
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/a74c1922-8c65-4e45-8c06-8e86b3bd8e91)
+
+
 # Part 2: Language Modeling / Classification
 ## Dataset
 The dataset used for this part can be found here.
