@@ -28,13 +28,12 @@ The obtained results are interpreted to understand the effectiveness of the sele
 
 
 
-![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/8341f7d5-dc6c-4e74-b3c7-6e2f240217c0)
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/ab325146-1855-4be3-8164-27a6d8adc1b4)
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/8a18d70a-49bf-49d0-bc37-d11e562bbebf)
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/84811944-5842-4a39-a31f-bfeaf68d29bb)
 
 
-![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/36cdef3d-584c-469c-81b0-b4bade735e07)
 
-
-![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/379273ac-dc24-4285-a56d-d2a4b232045f)
 
 
 
@@ -65,11 +64,9 @@ Models are evaluated using standard metrics such as Accuracy, Loss, and F1 Score
 ## Results Interpretation
 The obtained results are interpreted to understand the effectiveness of the selected model and the overall performance of the language models for classification.
 
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/27ac96ae-1035-41a2-9365-1a7a911a7dcd)
+![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/a5cb849e-49d9-4ec2-9367-99f63ca51d97)
 
-![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/d3295cc4-4b10-4dff-8532-1306e8829eaa)
-
-
-![image](https://github.com/IMANEELAOUFI/Language-Modeling/assets/118814232/5b369fd2-8f1c-48c7-8078-be060bd01a7a)
 
 
 
